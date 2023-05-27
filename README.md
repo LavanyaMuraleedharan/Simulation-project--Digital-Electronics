@@ -1,5 +1,4 @@
-# TITTLE:
-16:1 MULTIPLEXER
+# TITTLE: 16:1 MULTIPLEXER
 
 # THEORY:
 A 16:1 multiplexer is a digital circuit that allows the selection of one out of 16 input lines to be routed to a single output line. It is commonly abbreviated as "16x1 MUX." The number before the colon represents the number of input lines, and the number after the colon represents the number of output lines.
