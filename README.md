@@ -24,6 +24,7 @@ To implement a 16:1 multiplexer, you can use a combination of smaller multiplexe
 # TIMING DIAGRAM
 
 # PROGRAM:
+```
 module mux(i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,s0,s1,s2,s3,y);
 input i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,s0,s1,s2,s3;
 output y;
@@ -50,5 +51,5 @@ and(o,s0,s1,s2,s3c,i14);
 and(p,s0,s1,s2,s3,i15);
 or(y,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p);
 endmodule  
-
+```
 # REFERENCE
