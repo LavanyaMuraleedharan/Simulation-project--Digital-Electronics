@@ -18,6 +18,8 @@ The control lines determine which output line the input signal is routed to. The
 
 
 # TIMING DIAGRAM
+![Screenshot (18)](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/ea332dd0-950c-4064-89ec-35d642a9503f)
+
 
 # PROGRAM:
 ```
@@ -50,3 +52,4 @@ endmodule
  
 ```
 # REFERENCE
+https://technobyte.org/verilog-code-for-demultiplexer-using-behavioral-modeling/
