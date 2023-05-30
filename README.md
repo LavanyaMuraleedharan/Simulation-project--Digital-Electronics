@@ -56,7 +56,8 @@ Y15=A.S0.S1.S2'.S3
 ![demux2](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/8d874746-32ac-450d-9d42-284b7007dc18)
 
 # TIMING DIAGRAM
-![Screenshot (18)](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/ea332dd0-950c-4064-89ec-35d642a9503f)
+![Screenshot (20)](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/30df6faf-985c-4b80-b77b-656165bc6ec6)
+
 
 
 # PROGRAM:
