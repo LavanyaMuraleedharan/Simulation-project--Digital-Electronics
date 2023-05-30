@@ -9,13 +9,9 @@ The control lines determine which output line the input signal is routed to. The
 # LOGIC DIAGRAM:
 ![image](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/df9a4bdb-8430-40ff-86f6-2dd05305de12)
 
-
-
 # NETLIST DIAGRAM
 ![demux1](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/e1eefb4b-5c77-4131-857d-39d003c4e954)
 ![demux2](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/8d874746-32ac-450d-9d42-284b7007dc18)
-
-
 
 # TIMING DIAGRAM
 ![Screenshot (18)](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/ea332dd0-950c-4064-89ec-35d642a9503f)
