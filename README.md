@@ -1,4 +1,4 @@
-# TITTLE: 1x16 demultiplexer
+# TITLE: 1x16 demultiplexer
 
 # THEORY:
 A 1x16 demultiplexer, also known as a 1-to-16 demultiplexer, is a digital circuit that takes a single input signal and directs it to one of the 16 possible output lines based on the control inputs. It is commonly represented using the shorthand notation "1:16 DEMUX."
