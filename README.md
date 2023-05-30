@@ -18,7 +18,7 @@ The control lines determine which output line the input signal is routed to. The
 ![image](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/866b540b-b0b6-4af0-895e-38d926b745be)
 
 The logical expression of the term Y is as follows:
-
+```
 Y0=A.S0'.S1'.S2'.S3'
 Y1=A.S0'.S1'.S2'.S3
 Y2=A.S0'.S1'.S2.S3'
@@ -35,7 +35,7 @@ Y12=A.S0.S1.S2'.S3'
 Y13=A.S0.S1.S2'.S3
 Y14=A.S0.S1.S2.S3'
 Y15=A.S0.S1.S2'.S3
-
+```
 
 # LOGIC DIAGRAM:
 ![image](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/df9a4bdb-8430-40ff-86f6-2dd05305de12)
