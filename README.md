@@ -23,6 +23,8 @@ The control lines determine which output line the input signal is routed to. The
 
 # PROGRAM:
 ```
+Developed by: Lavanya M
+Refernce number: 212222110021
 module mux(out,a,s);
 input  a;
 input [3:0] s;
