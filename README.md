@@ -52,8 +52,7 @@ Y15=A.S0.S1.S2'.S3
 ![image](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/df9a4bdb-8430-40ff-86f6-2dd05305de12)
 
 # NETLIST DIAGRAM
-![demux1](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/e1eefb4b-5c77-4131-857d-39d003c4e954)
-![demux2](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/8d874746-32ac-450d-9d42-284b7007dc18)
+![Screenshot (23)](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/e7492a24-0546-403e-8417-3ab945ec8417)
 
 # TIMING DIAGRAM
 ![Screenshot (20)](https://github.com/LavanyaMuraleedharan/Simulation-project--Digital-Electronics/assets/120103862/30df6faf-985c-4b80-b77b-656165bc6ec6)
@@ -64,31 +63,25 @@ Y15=A.S0.S1.S2'.S3
 ```
 Developed by: Lavanya M
 Refernce number: 212222110021
-module mux(out,a,s);
-input  a;
-input [3:0] s;
-output reg [15:0] out;
-always @(a,s)
-begin
-case(s)
-4'b 0000:out[0]= a;
-4'b 0001:out[1]=a ;
-4'b 0010:out[2]= a;
-4'b 0011:out[3]=a ;
-4'b 0100:out[4]= a;
-4'b 0101:out[5]= a;
-4'b 0110:out[6]=a ;
-4'b 0111:out[7]=a ;
-4'b 1000:out[8]=a;
-4'b 1001:out[9]=a ;
-4'b 1010:out[10]= a;
-4'b 1011:out[11]=a;
-4'b 1100:out[12]= a;
-4'b 1101:out[13]=a;
-4'b 1110:out[14]=a;
-4'b 1111:out[15]=a;
-endcase
-end
+module demux(input wire D, input wire[3:0] S, output wire[15:0] Y);
+
+  assign Y = (S == 4'b0000) ? 16'b0000000000000001 :
+             (S == 4'b0001) ? 16'b0000000000000010 :
+             (S == 4'b0010) ? 16'b0000000000000100 :
+             (S == 4'b0011) ? 16'b0000000000001000 :
+             (S == 4'b0100) ? 16'b0000000000010000 :
+             (S == 4'b0101) ? 16'b0000000000100000 :
+             (S == 4'b0110) ? 16'b0000000001000000 :
+             (S == 4'b0111) ? 16'b0000000010000000 :
+             (S == 4'b1000) ? 16'b0000000100000000 :
+             (S == 4'b1001) ? 16'b0000001000000000 :
+             (S == 4'b1010) ? 16'b0000010000000000 :
+             (S == 4'b1011) ? 16'b0000100000000000 :
+             (S == 4'b1100) ? 16'b0001000000000000 :
+             (S == 4'b1101) ? 16'b0010000000000000 :
+             (S == 4'b1110) ? 16'b0100000000000000 :
+             (S == 4'b1111) ? 16'b1000000000000000 : 16'b0000000000000000;
+
 endmodule
  
 ```
